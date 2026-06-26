@@ -1,3 +1,4 @@
+import { SpeedInsights } from "@vercel/speed-insights/react";
 import { useState, useEffect, type CSSProperties, type PointerEvent } from "react";
 import "./index.css";
 
@@ -1424,6 +1425,7 @@ export default function App() {
         <Contact />
       </main>
       <Footer />
+      <SpeedInsights />
     </>
   );
 }
